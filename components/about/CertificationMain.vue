@@ -4,9 +4,9 @@
       <div class="titieSpan">Certification</div>
       <div class="title ko">인증</div>
       <div class="title en">Certification</div>
-      <div class="introImg">
+      <!-- <div class="introImg">
         <img src="~/assets/img/CertificationImg.png" alt="">
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

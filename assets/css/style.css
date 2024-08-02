@@ -30,7 +30,6 @@ a{
 #__nuxt,
 #__layout,
 #wrap {
-  @apply h-full;
 }
 
 .text-truncate{
@@ -55,6 +54,10 @@ a{
   -webkit-box-orient: vertical !important;
 }
 /* reset */
+
+.content{
+  @apply relative
+}
 
 .list01{
   @apply min-w-[130px];
@@ -91,7 +94,7 @@ a{
 /* landing section */
 
 .section{
-  @apply w-full h-[970px] flex justify-center items-center overflow-hidden;
+  @apply w-full h-[1080px] flex justify-center items-center;
 }
 
 .titleSpan{
@@ -176,18 +179,21 @@ a{
   height: 153px;
 }
 
-.rassiBg .titleSpan{
-  @apply hidden;
-}
 /* landing section */
+.titleSpan{
+  @apply hidden
+}
+.rassiBg .titleSpan{
+  @apply block mb-0 text-[16px] text-[#9395a1] font-normal
+}
 
 /* categoryIntro */
 .categoryIntro{
   @apply w-full pt-[45px] text-center;
 }
 
-.categoryIntro .titleSpan{
-  @apply text-[#9395a1] text-[16px] font-normal leading-[20px] mb-[8px];
+.categoryIntro .titieSpan{
+  @apply text-[#9395A1] text-[16px] font-normal leading-[20px] mb-[8px];
 }
 
 .categoryIntro .title{
@@ -332,7 +338,7 @@ a{
 }
 
 .rdContent .subTitle{
-  @apply text-[#000] text-[16px] font-normal leading-[25px]
+  @apply text-[#444] text-[16px] font-normal leading-[25px]
 }
 
 .rdContent .txt{
@@ -433,3 +439,29 @@ a{
   @apply w-full border-b-[1px] border-[#e6e6eb] p-[22px_25px] text-left flex justify-start items-center gap-[35px] text-[18px] text-[#141414] font-normal leading-[30px];
 }
 /* prBoard */
+
+
+.defaultTbl{
+  @apply w-full mt-5
+}
+.defaultTbl thead tr th{
+  @apply border-t-[1px] border-t-[#1f1919] border-l-[1px] border-l-[#f0f0f0] h-[80px] text-[#141414] text-[18px] font-normal
+}
+.defaultTbl thead tr th:first-child{
+  @apply font-bold border-l-0
+}
+.defaultTbl tbody tr th{
+  @apply border-[1px] border-[#f0f0f0] border-l-0 align-middle leading-6 text-[18px] text-[#141414]
+}
+.defaultTbl tbody tr td{
+  @apply border-[1px] border-[#f0f0f0] h-[80px] text-center text-[18px] text-[#141414]
+}
+.defaultTbl tbody tr td:last-child{
+  @apply text-start pl-[70px] border-r-0
+}
+.defaultTbl tbody tr td:first-child{
+  @apply border-l-0
+}
+.defaultTbl tbody tr td img{
+  @apply inline-block
+}

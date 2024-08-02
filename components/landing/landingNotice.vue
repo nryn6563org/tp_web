@@ -1,10 +1,12 @@
 <template>
   <div class="section landingNoticeBg">
     <div class="landingNotice">
-      <div class="titleSpan">NOTICE</div>
+      <!-- <div class="titleSpan">NOTICE</div> -->
       <div class="sectionTitle ko"><strong>공지사항</strong>을 알려드립니다.</div>
       <div class="sectionTitle en">Announcements </div>
-      <div class="sectionContent">
+      <!-- // -->
+
+      <div class="sectionContent" @click="goToNotice">
         <div class="contentBox">
           <div class="boxTitle text-truncate2 ko">
             소규모합병 종료보고의 공고
@@ -20,6 +22,8 @@
           </div>
           <div class="date">2023-07-24</div>
         </div>
+        <!-- // -->
+
         <div class="contentBox">
           <div class="boxTitle text-truncate2 ko">
             소규모합병 종료보고의 공고
@@ -35,6 +39,8 @@
           </div>
           <div class="date">2023-07-24</div>
         </div>
+        <!-- // -->
+
         <div class="contentBox">
           <div class="boxTitle text-truncate2 ko">
             소규모합병 종료보고의 공고
@@ -51,16 +57,23 @@
           <div class="date">2023-07-24</div>
         </div>
       </div>
+      <!-- // -->
+
       <div class="viewMore">
-        <button>View More</button>
+        <button @click="goToNotice">더보기</button>
       </div>
+      <!-- // -->
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  
+  methods: {
+    goToNotice() {
+      this.$router.push('/pr/notice')
+    }
+  }
 }
 </script>
 
@@ -78,7 +91,7 @@ export default {
   }
 
   .contentBox{
-    @apply w-[426px] p-[50px_36px_45px] rounded-[12px] shadow-[0px_2px_14px_rgba(0,0,0,0.15)] bg-[#fff];
+    @apply w-[426px] p-[50px_36px_45px] rounded-[12px] shadow-[0px_2px_14px_rgba(0,0,0,0.15)] bg-[#fff] cursor-pointer;
   }
 
   .boxTitle{
@@ -98,6 +111,6 @@ export default {
   }
 
   .viewMore button{
-    @apply w-[175px] h-[40px] leading-[40px] rounded-[30px] bg-[#fff] text-[#141414] text-[16px] font-normal;
+    @apply w-[175px] h-[40px] leading-[40px] bg-[#fff] text-[#141414] text-[16px] font-normal;
   }
 </style>

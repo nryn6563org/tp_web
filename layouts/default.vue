@@ -24,6 +24,6 @@ export default{
 
 <style scoped>
 #wrap {
-  @apply w-full max-w-[1920px] min-w-[1640px] mx-auto overflow-x-hidden;
+  @apply w-full min-w-[1920px]
 }
 </style>

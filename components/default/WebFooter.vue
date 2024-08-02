@@ -78,11 +78,11 @@ export default {
 
 <style scoped>
   .webFooter{
-    @apply w-full bg-[#1F2237] p-[43px_0px_60px] flex justify-center items-center;
+    @apply w-full h-[260px] bg-[#1F2237] p-[43px_0px_60px] flex justify-center items-center clear-both;
   }
 
   .footerWrapper{
-    @apply max-w-[1360px] min-w-[1360px] flex justify-between items-start;
+    @apply w-[1360px] flex justify-between items-start;
   }
 
   .logoTxt{

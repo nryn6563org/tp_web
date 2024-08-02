@@ -79,7 +79,7 @@ export default {
     return {
       categorys: [
       { ko: '회사소개', en: 'About Us',  to: '/about/corporateOverview'},
-      { ko: 'ThinkPool AI', en: 'ThinkPool AI', to: '/thinkpoolAi/axRassi' },
+      { ko: 'AI', en: 'AI', to: '/thinkpoolAi/axRassi' },
       { ko: '위치기반서비스', en: 'LBS', to: '/lbs/loginProtection' },
       { ko: '리스크관리솔루션', en: 'RMS', to: '/rms/rmsSystem' },
       { ko: '기업부설연구소', en: 'R&D Center', to: '/rdcenter/rdNational01' },
@@ -98,7 +98,7 @@ export default {
       { ko: '복지제도', en: 'Welfare System' },
       { ko: '인재상', en: 'Our Values' },
       { ko: '오시는길', en: 'Contact' },
-      { ko: 'AX RASSI', en: 'AX RASSI' },
+      { ko: 'AX 라씨', en: 'AX RASSI' },
       { ko: 'ThinkPool AI Algorithm', en: 'ThinkPool AI Algorithm' },
       { ko: '로그인보호서비스', en: 'Login Protection Services' },
       { ko: '안심키퍼서비스', en: 'SafeKeeper Service' },
@@ -129,7 +129,7 @@ export default {
   }
 
   .categoryNav{
-    @apply mt-[80px] w-full flex justify-start items-center gap-[5px] pl-[250px] pt-[13px];
+    @apply w-[1360px] flex gap-[5px] justify-start items-center absolute top-3 left-1/2 ml-[-680px] z-20
   }
 
   .categoryName{

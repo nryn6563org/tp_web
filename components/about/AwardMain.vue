@@ -4,9 +4,9 @@
       <div class="titieSpan">Award</div>
       <div class="title ko">수상</div>
       <div class="title en">Award</div>
-      <div class="introImg">
+      <!-- <div class="introImg">
         <img src="~/assets/img/awardImg.png" alt="">
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

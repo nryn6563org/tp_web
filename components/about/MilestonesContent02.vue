@@ -1,12 +1,12 @@
 <template>
   <div class="MilestonesContent">
     <div class="milestonesNav">
-      <nuxt-link to="milestones01" class="ko">현재 ~ 2019</nuxt-link>
-      <nuxt-link to="milestones01" class="en">Now ~ 2019</nuxt-link>
-      <nuxt-link to="milestones02" class="active ko">2018 ~ 2016</nuxt-link>
-      <nuxt-link to="milestones02" class="active en">2018 ~ 2016</nuxt-link>
       <nuxt-link to="milestones03" class="ko">2015 ~ 창립</nuxt-link>
       <nuxt-link to="milestones03" class="en">2015 ~ Establish</nuxt-link>
+      <nuxt-link to="milestones02" class="active ko">2018 ~ 2016</nuxt-link>
+      <nuxt-link to="milestones02" class="active en">2018 ~ 2016</nuxt-link>
+      <nuxt-link to="milestones01" class="ko">현재 ~ 2019</nuxt-link>
+      <nuxt-link to="milestones01" class="en">Now ~ 2019</nuxt-link>
     </div>
     <div class="milestonesBox">
       <div class="navTxt">2018 <br> ~ 2016</div>
