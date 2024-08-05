@@ -37,7 +37,7 @@
           <NuxtLink to="/careers/recrui" class="en list08">Careers</NuxtLink>
         </div>
 
-        <div class="headerNavCon opacity-0 invisible">
+        <div class="invisible opacity-0 headerNavCon">
           <div class="menuList_w">
             <div class="menuList list01">
               <nuxt-link to="/about/corporateOverview" class="ko"
@@ -70,7 +70,7 @@
 
             <div class="menuList list02">
               <nuxt-link to="/thinkpoolAi/axRassi">AX 라씨</nuxt-link>
-              <nuxt-link to="/">라씨매매비서</nuxt-link>
+              <nuxt-link to="/thinkpoolAi/RassiTradingAssistant">라씨매매비서</nuxt-link>
               <nuxt-link to="/thinkpoolAi/aiAlgorithms"
                 >알고리즘 협업</nuxt-link
               >
@@ -98,8 +98,8 @@
                 >RMS통제시스템</nuxt-link
               >
               <nuxt-link to="/rms/rmsSystem" class="en">RMS System</nuxt-link>
-              <nuxt-link to="/" class="ko"
-                >소상공인대출 리스크관리시스템</nuxt-link
+              <nuxt-link to="/rms/OnToUp" class="ko"
+                >온투업RMS시스템</nuxt-link
               >
             </div>
 
@@ -122,8 +122,8 @@
             <div class="menuList list06">
               <nuxt-link to="/pr/notice" class="ko">공지사항</nuxt-link>
               <nuxt-link to="/pr/news">NEWS</nuxt-link>
-              <nuxt-link to="/">소셜미디어</nuxt-link>
-              <nuxt-link to="/">사회공헌활동</nuxt-link>
+              <nuxt-link to="/pr/social">소셜미디어</nuxt-link>
+              <nuxt-link to="/pr/csr">사회공헌활동</nuxt-link>
               <nuxt-link to="/">문의하기</nuxt-link>
             </div>
 

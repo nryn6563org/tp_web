@@ -9,22 +9,23 @@
 
     <div class="rassiw">
       <div class="rassiTab">
-        <button class="active">PMS</button>
-        <button>SMS</button>
-        <button>TMS</button>
+        <button @click="showTab('tab1')" :class="{active: activeTab === 'tab1'}">PMS</button>
+        <button @click="showTab('tab2')" :class="{active: activeTab === 'tab2'}">SMS</button>
+        <button @click="showTab('tab3')" :class="{active: activeTab === 'tab3'}">TMS</button>
       </div>
+      
       <div class="rassiTabContent">
-        <div class="tCont">
+        <div v-if="activeTab === 'tab1'" class="tCont">
           <pmsSection></pmsSection>
         </div>
         <!-- // -->
 
-        <div class="tCont">
-          <smsSection class="rassiBg"></smsSection>
+        <div v-if="activeTab === 'tab2'" class="tCont">
+          <smsSection></smsSection>
         </div>
         <!-- // -->
 
-        <div class="tCont">
+        <div v-if="activeTab === 'tab3'" class="tCont">
           <tmsSection></tmsSection>
         </div>
         <!-- // -->
@@ -41,8 +42,14 @@ export default {
     return {
       categoryIndex: 1,
       selectedIndex: 10,
+      activeTab : 'tab1',
     }
   },
+  methods: {
+    showTab(tab) {
+      this.activeTab = tab
+    }
+  }
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
-  <div class="content">
+  <div class="content rassiBg">
     <CategoryNav :categoryIndex="categoryIndex" :activeIndex="selectedIndex" class="rassiBg"></CategoryNav>
-    <SafeKeeperServices class="rassiBg"></SafeKeeperServices>
+    <SafeKeeperServices></SafeKeeperServices>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   data() {
     return{
       categoryIndex: 2,
-      selectedIndex: 13,
+      selectedIndex: 14,
     }
   }
 }

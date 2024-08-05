@@ -9,21 +9,21 @@
 
     <div class="section rassiBg">
       <div class="landingRassi">
-        <div class="titleSpan">Collaborate on Algorithms</div>
+        <div class="titleSpan">RASSI Trading Assistant</div>
         <div class="sectionTitle">
-          <NuxtLink to="/thinkpoolAi/axRassi" class="ko">알고리즘 협업</NuxtLink>
+          <NuxtLink to="/thinkpoolAi/axRassi" class="ko">라씨매매비서</NuxtLink>
           <NuxtLink to="/thinkpoolAi/axRassi" class="en"
-            >Collaborate on Algorithms</NuxtLink
+            >RASSI Trading Assistant</NuxtLink
           >
         </div>
         <div class="sectionSubTitle ko">
-          AI 시장 예측력, 퀀트의 종목 선별을 통한 알고리즘 간 시너지 도모
+          수익은 극대화, 손실은 최소화 ‘AI매매신호’
         </div>
       </div>
       <!-- // -->
 
       <div class="rassiContent">
-        <img src="~/assets/img/c_algorithms.png" alt="" width="1093">
+        <img src="~/assets/img/rassiAss.png" alt="" width="1369">
       </div>
     </div>
   </div>
@@ -34,7 +34,7 @@ export default {
   data() {
     return {
       categoryIndex: 1,
-      selectedIndex: 12,
+      selectedIndex: 11,
     }
   }
 }

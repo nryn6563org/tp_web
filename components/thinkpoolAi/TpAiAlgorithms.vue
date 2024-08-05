@@ -1,7 +1,7 @@
 <template>
   <div class="TpAiAlgorithms">
     <div>
-      <div class="title">ThinkPool AI Algorithms</div>
+      <div class="title">Collaborate on Algorithms</div>
       <div class="subTitle ko">AI 시장 예측력, 퀀트의 종목 선별을 통한 알고리즘 간 시너지 도모</div>
       <div class="subTitle en">
         AI Market Prediction & Quant's Stock Picking to Create Synergy Between Algorithms

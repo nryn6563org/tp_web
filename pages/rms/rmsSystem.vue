@@ -1,7 +1,7 @@
 <template>
-  <div class="content">
+  <div class="content rassiBg">
     <CategoryNav :categoryIndex="categoryIndex" :activeIndex="selectedIndex" class="rassiBg"></CategoryNav>
-    <rmsSystemContent class="rassiBg"></rmsSystemContent>
+    <rmsSystemContent></rmsSystemContent>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   data() {
     return{
       categoryIndex: 3,
-      selectedIndex: 14,
+      selectedIndex: 15,
     }
   }
 }
