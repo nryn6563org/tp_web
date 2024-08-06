@@ -99,7 +99,7 @@ a{
 }
 
 .titleSpan{
-  @apply text-[#5368ff] text-[20px] font-bold leading-[21px] mb-[6px];
+  @apply text-[#5368ff] text-[20px] font-bold leading-[21px] mb-[6px] hidden;
 }
 
 .sectionTitle{
@@ -182,10 +182,7 @@ a{
 
 /* landing section */
 .titleSpan{
-  @apply hidden
-}
-.rassiBg .titleSpan{
-  @apply block mb-0 text-[16px] text-[#9395a1] font-normal
+  @apply !hidden
 }
 
 /* categoryIntro */
@@ -194,7 +191,7 @@ a{
 }
 
 .categoryIntro .titieSpan{
-  @apply text-[#9395A1] text-[16px] font-normal leading-[20px] mb-[8px];
+  @apply text-[#9395A1] text-[16px] font-normal leading-[20px] mb-[8px] hidden;
 }
 
 .categoryIntro .title{
@@ -310,9 +307,6 @@ a{
   @apply  p-[50px_0px_150px];
 }
 
-.rdWrap .titleSpan{
-  @apply text-[#9395a1] text-[16px] font-normal leading-[20px] mb-[8px] text-center;
-}
 
 .rdWrap .title{
   @apply text-[#141414] text-[48px] font-bold leading-[60px] text-center mb-[80px];
@@ -372,9 +366,6 @@ a{
   @apply p-[45px_0_150px] w-[1353px];
 }
 
-.board .titleSpan{
-  @apply text-[#9395a1] text-[16px] font-normal leading-[20px] mb-[8px] text-center;
-}
 
 .board .title{
   @apply text-[#141414] text-[48px] font-bold leading-[60px] text-center mb-[80px];

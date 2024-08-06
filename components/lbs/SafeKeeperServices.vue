@@ -2,13 +2,14 @@
   <div class="SafeKeeperServices">
     <div class="lbsWrap">
         <div class="lbsTitle">
-          <em>Safe Keeper Service</em>
-          <strong>안심키퍼서비스</strong>
+          <strong class="ko">안심키퍼서비스</strong>
+          <strong class="en">Safe Keeper Service</strong>
         </div>
         <!-- // -->
          
       <div class="lbsContent">
-        <img src="~/assets/img/safeKeeper.png" alt="안심키퍼서비스" width="1213">
+        <img src="~/assets/img/safeKeeper.png" alt="안심키퍼서비스" width="1213" class="ko">
+        <img src="~/assets/img/safeKeeper_en.png" alt="안심키퍼서비스" width="1213" class="en">
       </div>
     </div>
   </div>

@@ -7,28 +7,32 @@
     ></CategoryNav>
     <div class="rmsSystemContent">
       <div class="rmsTitle">
-        <em>On To Up RMS System</em>
-        <strong>온투업RMS시스템</strong>
+        <strong class="ko">온투업RMS시스템</strong>
+        <strong class="en">Online Investment-Linked <br>Financial Business RMS System</strong>
       </div>
       <!-- // -->
 
       <div class="rmsContent">
         <div>
-          <img
-            src="~/assets/img/ontoup.png"
-            alt="온투업RMS시스템"
-            width="500"
-          />
+          <img src="~/assets/img/ontoup.png" alt="온투업RMS시스템" width="500" class="ko" />
+          <img src="~/assets/img/ontoup_en.png" alt="온투업RMS시스템" width="500" class="en" />
         </div>
         <div>
           <div class="txt">
-            <span>
+            <span class=ko>
               온라인연계신용대출상품의 기관투자자를 대상으로 채권(대출)투자<br>
               를 안정적으로 관리할 수 있도록 도와주는 Fin-Tech 시스템<br>
               대형 신용평가사보다 우수한 성능의 자체 신용평가모델 보유
             </span>
-            <span>
+            <span class="en">
+              A fintech system that helps institutional investors in online-linked credit <br>
+              loan products manage bond (loan) investments in a stable manner.
+            </span>
+            <span class="ko">
               * 온투업 (온라인투자연계금융업, 옛 P2P)
+            </span>
+            <span class="en">
+              Own proprietary credit models that outperform the major credit bureaus
             </span>
           </div>
           <!-- // -->
@@ -63,7 +67,7 @@ export default {
 }
 
 .rmsTitle{
-  @apply flex w-full flex-col items-center gap-2 pt-[54px]
+  @apply flex w-full flex-col items-center gap-2 pt-[54px] text-center
 }
 .rmsTitle em{
   @apply text-[#9395a1] text-[16px] leading-5

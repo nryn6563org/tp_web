@@ -53,7 +53,8 @@
       <!-- // -->
 
       <div class="awardList">
-        <strong>인증</strong>
+        <strong class="ko">인증</strong>
+        <strong class="en">Certification</strong>
 
         <div class="aw-list-w">
           <div class="aw-list">
@@ -201,6 +202,9 @@ export default {}
 }
 .awardList strong {
   @apply w-full text-[24px] font-bold text-[#141414];
+}
+.categoryContent .awardList button{
+  @apply w-[175px] h-[40px] rounded-[4px] bg-[#F4F5F6] flex justify-center items-center mt-[30px] text-[#141414] text-[13px] mx-auto
 }
 .awardList .aw-list-w {
   @apply w-full border-t-[1px] border-[#8c8c8c] mt-5;

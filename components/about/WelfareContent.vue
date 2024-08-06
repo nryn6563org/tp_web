@@ -5,7 +5,8 @@
       <div class="detail en">Reasonable evaluations based on experience and performance, as well as ThinkPool's welfare
         system. </div>
       <div class="welfareList">
-        <img src="~/assets/img/walfare.png" alt="복지제도" width="1358">
+        <img src="~/assets/img/walfare.png" alt="복지제도" width="1358" class="ko">
+        <img src="~/assets/img/walfare_en.png" alt="복지제도" width="1358" class="en">
       </div>
     </div>
   </div>

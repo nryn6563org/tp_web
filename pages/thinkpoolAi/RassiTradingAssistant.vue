@@ -19,11 +19,15 @@
         <div class="sectionSubTitle ko">
           수익은 극대화, 손실은 최소화 ‘AI매매신호’
         </div>
+        <div class="sectionSubTitle en">
+          'AI trading signal' to maximize profits and minimize losses
+        </div>
       </div>
       <!-- // -->
 
       <div class="rassiContent">
-        <img src="~/assets/img/rassiAss.png" alt="" width="1369">
+        <img src="~/assets/img/rassiAss.png" alt="" width="1369" class="ko">
+        <img src="~/assets/img/rassiAss_en.png" alt="" width="1369" class="en">
       </div>
     </div>
   </div>

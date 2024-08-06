@@ -6,19 +6,26 @@
     ></CategoryNav>
     <div class="contact">
       <div class="contactTitle">
-        <em>Inquiry</em>
-        <strong>문의하기</strong>
-        <span>
+        <strong class="en">Inquiry</strong>
+        <strong class="ko">문의하기</strong>
+        <span class="ko">
           씽크풀에 궁금한 점이 있으신가요? <br>
           문의사항을 등록해 주시면, <br>
           담당자 확인 후 안내해 드리겠습니다.
+        </span>
+        <span class="en">
+          Do you have any questions about Thinkpool? <br>
+          If you register your inquiry, <br>
+          I will check the person in charge and guide you.
         </span>
       </div>
       <!-- // -->
       <div class="contactContent">
         <div class="contact_top">
-          <strong>문의사항 등록하기</strong>
-          <em>* 표시는 필수 입력 사항입니다. </em>
+          <strong class="ko">문의사항 등록하기</strong>
+          <strong class="en">Register an inquiry</strong>
+          <em class="ko">* 표시는 필수 입력 사항입니다. </em>
+          <em class="en">* Required fields </em>
         </div>
         <!-- // -->
         <div class="contact_input">
@@ -30,35 +37,39 @@
             <tbody>
               <tr>
                 <th>
-                  <span>분류</span><em>*</em>
+                  <span class="ko">분류</span><span class="en">Category</span><em>*</em>
                 </th>
                 <td>
                   <div class="cho_class">
                     <label for="choCl1">
                       <input type="radio" name="choCl" id="choCl1" checked>
-                      <span>제휴문의</span>
+                      <span class="ko">제휴문의</span>
+                      <span class="en">Partnerships</span>
                     </label>
 
                     <label for="choCl2">
                       <input type="radio" name="choCl" id="choCl2">
-                      <span>IR문의</span>
+                      <span class="ko">IR문의</span>
+                      <span class="en">IR</span>
                     </label>
 
                     <label for="choCl3">
                       <input type="radio" name="choCl" id="choCl3">
-                      <span>채용문의</span>
+                      <span class="ko">채용문의</span>
+                      <span class="en">HR</span>
                     </label>
 
                     <label for="choCl4">
                       <input type="radio" name="choCl" id="choCl4">
-                      <span>서비스문의</span>
+                      <span class="ko">서비스문의</span>
+                      <span class="en">Service</span>
                     </label>
                   </div>
                 </td>
               </tr>
               <tr>
                 <th>
-                  <span>성명</span><em>*</em>
+                  <span class="ko">성명</span><span class="en">Name</span><em>*</em>
                 </th>
                 <td>
                   <input type="text" placeholder="성명을 입력해주세요.">
@@ -66,7 +77,7 @@
               </tr>
               <tr>
                 <th>
-                  <span>소속회사</span><em>*</em>
+                  <span class="ko">소속회사</span><span class="en">Company</span><em>*</em>
                 </th>
                 <td>
                   <input type="text" placeholder="소속회사명(기관명)을 입력해주세요.">
@@ -74,7 +85,7 @@
               </tr>
               <tr>
                 <th>
-                  <span>전화번호</span><em>*</em>
+                  <span class="ko">전화번호</span><span class="en">Phone No.</span><em>*</em>
                 </th>
                 <td>
                   <input type="text" placeholder="전화번호를 입력해주세요.">
@@ -82,7 +93,7 @@
               </tr>
               <tr>
                 <th>
-                  <span>이메일</span><em>*</em>
+                  <span class="ko">이메일</span><span class="en">Email</span><em>*</em>
                 </th>
                 <td>
                   <input type="text" placeholder="답변 받을 메일주소를 입력해주세요. ">
@@ -90,7 +101,7 @@
               </tr>
               <tr>
                 <th>
-                  <span>제목</span><em>*</em>
+                  <span class="ko">제목</span><span class="en">Title</span><em>*</em>
                 </th>
                 <td>
                   <input type="text" placeholder="제목을 입력해주세요. ">
@@ -98,7 +109,7 @@
               </tr>
               <tr>
                 <th>
-                  <span>문의사항</span><em>*</em>
+                  <span class="ko">문의사항</span><span class="en">Inquiries</span><em>*</em>
                 </th>
                 <td>
                   <textarea name="" id="" cols="30" rows="10" placeholder="문의사항을 입력해주세요."></textarea>
@@ -111,18 +122,26 @@
         <div class="contact_agree">
           <label for="choAg1">
             <input type="checkbox" name="" id="choAg1">
-            <span>씽크풀의 개인정보 처리방침에 동의 합니다.</span>
-            <a href="#">자세히보기</a>
+            <span class="ko">씽크풀의 개인정보 처리방침에 동의 합니다.</span>
+            <span class="en">Accept Privacy Policy</span>
+            <a href="#">
+              <span class="ko">자세히 보기</span>
+              <span class="en">In detail</span>
+            </a>
           </label>
           <label for="choAg2">
             <input type="checkbox" name="" id="choAg2">
-            <span>[선택] 마케팅 이용 및 뉴스레터 수신에 동의합니다.</span>
+            <span class="ko">[선택] 마케팅 이용 및 뉴스레터 수신에 동의합니다.</span>
+            <span class="en">[Optional] I agree to receive marketing and newsletters.</span>
           </label>
         </div>
         <!-- // -->
 
         <div class="btnbox">
-          <button>등록하기</button>
+          <button>
+            <span class="ko">등록하기</span>
+            <span class="en">Register</span>
+          </button>
         </div>
         <!-- // -->
       </div>
@@ -183,7 +202,7 @@ export default {
 .contact_agree label span{
   @apply text-[#1e1e1e] text-[18px] 
 }
-.contact_agree label a{
+.contact_agree label a span{
   @apply underline text-[#9395a1] text-[18px]
 }
 .btnbox{

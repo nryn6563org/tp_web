@@ -1,7 +1,10 @@
 <template>
   <div class="section">
     <div class="pmsContent">
-      <div><img src="~/assets/img/pmsContent.png" alt="pms" width="708"></div>
+      <div>
+        <img src="~/assets/img/pmsContent.png" alt="pms" width="708" class="ko">
+        <img src="~/assets/img/pmsContent_en.png" alt="pms" width="708" class="en">
+      </div>
       <div>
         <div class="tit">
           <span>AXR 1</span>
@@ -10,11 +13,21 @@
         <!-- // -->
          
         <div class="txt">
-          <span>
+          <span class="ko">
             투자자가 <em>종목 또는 포트폴리오를 선택할 수 있도록 지원하는 시스템</em> <br>
             개인별 투자 성향이나 투자 목표에 따라 다양한 형태로 구성 가능 <br>
             기본적 분석 기반의 알고리즘, 차트/수급 기술적 분석 기반의 알고리 <br>
             즘, 다양한 형태의 AI알고리즘까지 수용 가능한 <em>오픈형 시스템</em>
+          </span>
+          <span class="en">
+            A system that allows investors to choose <br>
+            stocks or portfolios <br>
+            Can be configured in a variety of ways to suit <br>
+            individual investment preferences and investment goals <br>
+            An open system that can accommodate <br>
+            algorithms based on fundamental <br>
+            analysis,algorithms based on technical <br>
+            analysis,and various types of AI algorithms.
           </span>
           <span>*PMS( Picking & Portfolio Management System)</span>
         </div>

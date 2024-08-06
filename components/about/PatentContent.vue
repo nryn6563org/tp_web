@@ -4,16 +4,23 @@
       <div class="top">
         <div class="img">
           <img src="~/assets/img/patentImg2.png" alt="수상" />
-          <p>특허경영대상 수상</p>
+          <p class="ko">특허경영대상 수상</p>
+          <p class="en">Winning the Patent Management Award</p>
         </div>
         <div class="txt">
-          <span>
+          <span class="ko">
             씽크풀은 <em>99</em>건의 등록특허와 <br />
             <em>6건</em>의 상표권을 보유하고 있으며 <br />
             <em>20</em>건의 특허 출원을 진행중입니다.
           </span>
+          <span class="en">
+            ThinkPool is a knowledge company with <br>
+            <em>99</em> registered patents, <em>6</em> trademarks, and <br>
+            <em>20</em> pending patent applications. 
+          </span>
 
-          <p>2024.05.31. 현재</p>
+          <p class="ko">2024.05.31. 현재</p>
+          <p class="en">As of May 31, 2024  </p>
         </div>
       </div>
       <!-- // -->
@@ -69,8 +76,11 @@
         <!-- box -->
 
         <div class="box">
-          <strong>
+          <strong class="ko">
             <em>로그인보호솔루션</em>(11건)
+          </strong>
+          <strong class="en">
+            <em>Login Protection Service</em>( 11 cases )
           </strong>
           <!-- // -->
 
@@ -119,8 +129,11 @@
 
 
         <div class="box">
-          <strong>
+          <strong class="ko">
             <em>리스크관리솔루션</em>(10건)
+          </strong>
+          <strong class="en">
+            <em>Risk Management Solution </em>( 10 cases )
           </strong>
           <!-- // -->
 
@@ -168,8 +181,11 @@
         <!-- box -->
 
         <div class="box">
-          <strong>
+          <strong class="ko">
             <em>상표권현황</em>
+          </strong>
+          <strong class="en">
+            <em>Trademark Rights</em>
           </strong>
           <!-- // -->
 

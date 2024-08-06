@@ -3,8 +3,8 @@
     <CategoryNav :categoryIndex="categoryIndex" :activeIndex="selectedIndex"></CategoryNav>
     <div class="rnd">
       <div class="rndTitle">
-        <em>National R&D</em>
-        <strong>국가R&D</strong>
+        <strong class="ko">국가R&D</strong>
+        <strong class="en">National R&D</strong>
       </div>
       <!-- // -->
        

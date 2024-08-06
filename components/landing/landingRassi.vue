@@ -1,7 +1,6 @@
 <template>
   <div class="section">
     <div class="landingRassi">
-      <div class="titleSpan">AX RASSI</div>
       <div class="sectionTitle">
         <NuxtLink to="/thinkpoolAi/axRassi" class="ko">AX 라씨</NuxtLink>
         <NuxtLink to="/thinkpoolAi/axRassi" class="en">AX RASSI</NuxtLink>

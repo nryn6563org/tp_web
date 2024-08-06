@@ -14,7 +14,7 @@
         <!-- // -->
          
         <div class="txt">
-          <span>
+          <span class="ko">
             국내 전종목 및 ETF를 대상으로 최적의 매매 타이밍을 잡아주는 <br>
             종목별 AI시그널 생성 및 운영 시스템 <br>
             SBS 2021년 신년특집 “AI vs. 인간” 주식 AI대표로 출연 <br>
@@ -22,6 +22,21 @@
             투자자문사 등 맞춤형 투자 시스템 제공 <br>
             (웰스투자자문 2021년부터 2023년말까지 운용수익 92% 달성) <br>
             NH자산운용 AI엔진 운용 사모펀드 출시 (100억원, 2024.03)
+          </span>
+          <span class="en">
+            Created and operated stock-specific AI signals that provide <br>
+            optimal trading timing for all domestic stocks and ETFs<br>
+            Appeared as a stock AI representative on SBS's 2021 New <br>
+            Year's special "AI vs. Humans" (achieved 42% annualized<br>
+            outperformance compared to the stock market) <br>
+            “RASSI Trading Assistant” No. 1 in sales in the financial sector<br>
+            of Google Android Market (February 2024) <br>
+            Provided customized investment system for investment <br>
+            advisory firms <br>
+            (Achieved 92% return on investment from 2021 to the end of <br>
+            2023 for Wealth Investment Advisory) <br>
+            Launched NH Asset Management AI engine-managed private <br>
+            equity fund (KRW 10 billion, March 2024)
           </span>
           <span>*SMS( Signal Management System)</span>
         </div>

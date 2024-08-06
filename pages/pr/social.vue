@@ -6,15 +6,24 @@
     ></CategoryNav>
     <div class="social">
       <div class="socialTitle">
-        <em>Social Media</em>
-        <strong>소셜미디어</strong>
+        <strong class="en">Social Media</strong>
+        <strong class="ko">소셜미디어</strong>
       </div>
       <!-- // -->
       <div class="socialContent">
         <div class="tab">
-          <button @click="showTab('tab1')" :class="{active: activeTab === 'tab1'}">유튜브</button>
-          <button @click="showTab('tab2')" :class="{active: activeTab === 'tab2'}">블로그</button>
-          <button @click="showTab('tab3')" :class="{active: activeTab === 'tab3'}">텔레그램</button>
+          <button @click="showTab('tab1')" :class="{active: activeTab === 'tab1'}">
+            <span class="ko">유튜브</span>
+            <span class="en">Youtube</span>
+          </button>
+          <button @click="showTab('tab2')" :class="{active: activeTab === 'tab2'}">
+            <span class="ko">블로그</span>
+            <span class="en">Blog</span>
+          </button>
+          <button @click="showTab('tab3')" :class="{active: activeTab === 'tab3'}">
+            <span class="ko">텔레그램</span>
+            <span class="en">Telegram</span>
+          </button>
         </div>
         <!-- // -->
          

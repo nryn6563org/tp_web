@@ -69,11 +69,12 @@
             </div>
 
             <div class="menuList list02">
-              <nuxt-link to="/thinkpoolAi/axRassi">AX 라씨</nuxt-link>
-              <nuxt-link to="/thinkpoolAi/RassiTradingAssistant">라씨매매비서</nuxt-link>
-              <nuxt-link to="/thinkpoolAi/aiAlgorithms"
-                >알고리즘 협업</nuxt-link
-              >
+              <nuxt-link to="/thinkpoolAi/axRassi" class="ko">AX 라씨</nuxt-link>
+              <nuxt-link to="/thinkpoolAi/axRassi" class="en">AX RASSI</nuxt-link>
+              <nuxt-link to="/thinkpoolAi/RassiTradingAssistant" class="ko">라씨매매비서</nuxt-link>
+              <nuxt-link to="/thinkpoolAi/RassiTradingAssistant" class="en">RASSI Trading Assistant</nuxt-link>
+              <nuxt-link to="/thinkpoolAi/aiAlgorithms" class="ko">알고리즘 협업</nuxt-link>
+              <nuxt-link to="/thinkpoolAi/aiAlgorithms" class="en">Algorithmic Collaboration</nuxt-link>
             </div>
 
             <div class="menuList list03">
@@ -98,9 +99,8 @@
                 >RMS통제시스템</nuxt-link
               >
               <nuxt-link to="/rms/rmsSystem" class="en">RMS System</nuxt-link>
-              <nuxt-link to="/rms/OnToUp" class="ko"
-                >온투업RMS시스템</nuxt-link
-              >
+              <nuxt-link to="/rms/OnToUp" class="ko">온투업RMS시스템</nuxt-link>
+              <nuxt-link to="/rms/OnToUp" class="en">P2P RMS System</nuxt-link>
             </div>
 
             <div class="menuList list05">

@@ -1,19 +1,28 @@
 <template>
   <div class="rmsSystemContent">
     <div class="rmsTitle">
-      <em>RMS Control System</em>
-      <strong>RMS통제시스템</strong>
+      <strong class="ko">RMS통제시스템</strong>
+      <strong class="en">RMS Control System</strong>
     </div>
 
     <div class="rmsContent">
       <div>
-        <img src="~/assets/img/rms.png" alt="rms통제시스템" width="477">
+        <img src="~/assets/img/rms.png" alt="rms통제시스템" width="477" class="ko">
+        <img src="~/assets/img/rms_en.png" alt="rms통제시스템" width="477" class="en">
       </div>
       <!-- // -->
        
       <div>
         <div class="txt">
-          <span>
+          <span class="en">
+            Developed and provided systems to Daewoo Securities <br>
+            and KB Savings Bank for the first time in Korea in 2005 <br><br>
+            12 securities firms, 22 lenders, 90 products in total<br>
+            Expansion of Stock Loan business with '8%', an <br>
+            online investment-linked financial service company
+          </span>
+          
+          <span class="ko">
             2005년 국내 최초로 대우증권과 KB저축은행(구, 제일저축은행)에<br>
             RMS 시스템 개발/ 제공 <br>
             <br>
@@ -22,9 +31,16 @@
             온라인투자연계금융 서비스업체 ‘8퍼센트’와 스탁론<br>
             사업 확장 진행 
           </span>
-          <span>
+          
+          <span class="ko">
             <em>*RMS (Risk Management System)</em><br>
             증권사와 대출 금융기관이 연계하여 대출하는 연계신용 리스크 관리
+          </span>
+          
+          <span class="en">
+            <em>*RMS (Risk Management System)</em><br>
+            Linked credit risk management that securities firms and lending <br>
+            financial institutions lend in connection with each other
           </span>
         </div>
         <!-- // -->
@@ -76,6 +92,9 @@ export default {
 }
 .rmsContent div .txt span{
   @apply w-full text-[#444] text-[20px] leading-[25px] tracking-[-0.22px] font-normal
+}
+.rmsContent div .txt span.en{
+  @apply text-[18px]
 }
 .rmsContent div .txt span em{
   @apply font-bold

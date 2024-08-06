@@ -9,9 +9,11 @@
         <div class="headName en">We are looking for talented people to join us in the era of AI and Big Data.</div>
 
         <div class="rec_Procedure">
-          <strong>채용절차</strong>
+          <strong class="ko">채용절차</strong>
+          <strong class="en">Recruitment procedures</strong>
           <span>
-            <img src="~/assets/img/recruit_p.png" alt="채용절차" width="100%">
+            <img src="~/assets/img/recruit_p.png" alt="채용절차" width="100%" class="ko">
+            <img src="~/assets/img/recruit_p_en.png" alt="채용절차" width="100%" class="en">
           </span>
         </div>
         
@@ -170,9 +172,6 @@ export default {
 </script>
 
 <style scoped>
-.titleSpan{
-  @apply !block
-}
 .RecruitContent {
   @apply flex justify-center items-center;
 }

@@ -6,14 +6,15 @@
     ></CategoryNav>
     <div class="fin">
       <div class="finTitle">
-        <em>Financials</em>
-        <strong>재무정보</strong>
+        <strong class="en">Financials</strong>
+        <strong class="ko">재무정보</strong>
       </div>
       <!-- // -->
       <div class="finContent">
         <div class="billTable">
           <strong>
-            <span>재무상태표</span>
+            <span class="ko">재무상태표</span>
+            <span class="en">Statement of financial position</span>
             <em>(단위:원)</em>
           </strong>
           
@@ -124,7 +125,8 @@
         
         <div class="billTable">
           <strong>
-            <span>포괄손익계산서</span>
+            <span class="ko">포괄손익계산서</span>
+            <span class="en">Statement of comprehensive income</span>
             <em>(단위:원)</em>
           </strong>
           <table width="100%">

@@ -3,8 +3,8 @@
     <CategoryNav :categoryIndex="categoryIndex" :activeIndex="selectedIndex"></CategoryNav>
     <div class="rnd">
       <div class="rndTitle">
-        <em>Technical Research Personnel</em>
-        <strong>병역특례</strong>
+        <strong class="ko">병역특례</strong>
+        <strong class="en">Technical Research Personnel</strong>
       </div>
       <!-- // -->
        
@@ -16,50 +16,74 @@
          
         <div>
           <div class="tit">
-            <strong>
+            <strong class="ko">
               씽크풀은 금융권서비스 분야에서 유일하게<br>
               <em>병역특례 AI기술연구소</em>를 보유한<br>
               지식기업입니다.
             </strong>
-            <span>
+            <strong class="en">
+              Military service as a research and <br>
+              development activity national <br>
+              technological competitiveness!
+            </strong>
+            <span class="ko">
               전문연구요원제도란? <br>
               군복무 대체프로그램인 전문연구요원 제도는 자연계 석박사 졸업생들이 <br>
               군복무기간을 대체하여 연구기관에서 연구개발활동을 수행하는 제도입니다.
             </span>
+            <span class="en">
+              What is the Specialized Research Service? <br>
+              As an alternative to military service, the Professional Research Staff <br>
+              Program is a program for natural science graduates to perform research <br>
+              and development activities at research institutions as an alternative to <br>
+              military service.
+            </span>
 
-            <button>전문연구요원 채용공고 바로가기</button>
+            <button class="ko">전문연구요원 채용공고 바로가기</button>
+            <button class="en">View open posiiton</button>
           </div>
           <!-- // -->
            
           <div class="info">
-            <strong>병역 특례 지정업체 정보</strong>
+            <strong class="ko">병역 특례 지정업체 정보</strong>
+            <strong class="en">Military Service Designee Information</strong>
             <div>
-              <strong>업체명</strong>
-              <span>(주)씽크풀 기업부설연구소</span>
+              <strong class="ko">업체명</strong>
+              <strong class="en">Company name </strong>
+              <span class="ko">(주)씽크풀 기업부설연구소</span>
+              <span class="en">Thinkpool Corporate Research Center</span>
             </div>
             
             <div>
-              <strong>업종</strong>
-              <span>벤처기업부설연구소</span>
+              <strong class="ko">업종</strong>
+              <strong class="e">Industry</strong>
+              <span class="ko">벤처기업부설연구소</span>
+              <strong class="en">Venture Business Institute</strong>
             </div>
             
             <div>              
-              <strong>주소</strong>
-              <span>서울특별시 영등포구 국제금융로70 16층 <br>1501호(여의도동,미원빌딩)</span>
+              <strong class="ko">주소</strong>
+              <strong class="en">Address</strong>
+              <span class="ko">서울특별시 영등포구 국제금융로70 16층 <br>1501호(여의도동,미원빌딩)</span>
+              <span class="en">70, Gukje Financial Road, <br>Yeongdeungpo-gu, Seoul, Korea, <br>15F, Room 1501 (Yeouido-dong, <br>Mi-won Building)</span>
             </div>
             
             <div>
-              <strong>기업규모</strong>
-              <span>중소기업</span>
+              <strong class="ko">기업규모</strong>
+              <strong class="en">Enterprise size</strong>
+              <span class="ko">중소기업</span>
+              <span class="en">Small and medium-sized businesses</span>
             </div>
             
             <div>
-              <strong>전화번호</strong>
+              <strong class="ko">전화번호</strong>
+              <strong class="en">TEL</strong>
               <span>02-2174-5401</span>
             </div>
             
             <div>
-              <strong>팩스번호</strong>
+              <strong class="ko">팩스번호</strong>
+              <strong class="en">FAX</strong>
               <span>02-2174-6306</span>
             </div>
           </div>

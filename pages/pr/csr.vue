@@ -6,8 +6,8 @@
     ></CategoryNav>
     <div class="csr">
       <div class="csrTitle">
-        <em>CSR</em>
-        <strong>사회공헌활동</strong>
+        <strong class="en">Corporate Social Responsibility</strong>
+        <strong class="ko">사회공헌활동</strong>
       </div>
       <!-- // -->
       <div class="csrContent">
@@ -16,7 +16,8 @@
         </div>
         <div class="txt">
           <div>
-            <strong>봉사 및 후원</strong>
+            <strong class="ko">봉사 및 후원</strong>
+            <strong class="en">Service and sponsorship</strong>
             <span>2023년 5월 노을공원 나무심기 봉사 및 후원</span>
             <span>2022년 3월 ‘나의 걸음’이 기부가 되는 &lt;만보걷기 챌린지&gt;로 봉사단체 후원<br>&nbsp;&nbsp;(이태석재단, 다일 밥퍼사랑운동본부, 도산아카데미)</span>
             <span>2019년  7월 밥퍼 나눔봉사 및 후원 (다일 밥퍼운동본부)</span>
@@ -30,7 +31,8 @@
           <!-- // -->
 
           <div>
-            <strong>메세나</strong>
+            <strong class="ko">메세나</strong>
+            <strong class="en">Messena</strong>
             <span>2024년 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
             <span>2023년 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
             <span>2022년 문화예술활동 후원(앙상블공간, 한국문화예술위원회)</span>
