@@ -11,7 +11,7 @@ export default {
   data() {
     return{
       categoryIndex: 5,
-      selectedIndex: 18,
+      selectedIndex: 20,
     }
   }
 }

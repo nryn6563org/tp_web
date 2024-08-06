@@ -112,7 +112,7 @@ export default {
       { ko: '소셜미디어', en: 'NEWS' },
       { ko: '사회공헌활동', en: 'NEWS' },
       { ko: '문의하기', en: 'NEWS' },
-      { ko: '재무정보', en: 'NEWS' },
+      { ko: '재무정보', en: 'Financials' },
       { ko: '공시정보', en: 'NEWS' },
       { ko: '채용공고', en: 'Recruit' },
       ]

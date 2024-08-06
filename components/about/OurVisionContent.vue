@@ -37,8 +37,9 @@
 
 
 
-      <div class="ko">
-        <img src="~/assets/img/n_vision.png" alt="" width="885">
+      <div>
+        <img src="~/assets/img/n_vision.png" alt="" width="885" class="ko">
+        <img src="~/assets/img/vision_en.png" alt="" width="885" class="en">
       </div>
     </div>
   </div>

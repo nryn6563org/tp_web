@@ -11,7 +11,9 @@
       </div>
       <!-- // -->
       <div class="csrContent">
-        <div class="visual"></div>
+        <div class="visual">
+          <img src="~/assets/img/csr.png" alt="" width="989">
+        </div>
         <div class="txt">
           <div>
             <strong>봉사 및 후원</strong>
@@ -50,13 +52,7 @@ export default {
   data() {
     return {
       categoryIndex: 5,
-      selectedIndex: 21,
-      activeTab: 'tab1'
-    }
-  },
-  methods : {
-    showTab(tab) {
-      this.activeTab = tab
+      selectedIndex: 22
     }
   }
 }
@@ -76,6 +72,15 @@ export default {
   @apply text-[#141414] text-[48px] leading-[60px];
 }
 .csrContent{
-  @apply w-full pt-[80px] flex flex-col items-center
+  @apply w-full pt-[80px] flex flex-col items-center pb-[100px]
+}
+.csrContent .txt{
+  @apply w-[989px] mx-auto pt-[45px] flex flex-col gap-[56px]
+}
+.csrContent .txt div{
+  @apply flex flex-col gap-4 w-full
+}
+.csrContent .txt div strong{
+  @apply pb-4 text-[18px] leading-6 text-[#141414] font-bold
 }
 </style>

@@ -1,12 +1,9 @@
 <template>
   <div class="WelfareMain">
     <div class="categoryIntro">
-      <div class="titieSpan">Welfare System</div>
+      <div class="titieSpan">Employee Benefits</div>
       <div class="title ko">복지제도</div>
-      <div class="title en">Welfare System</div>
-      <div class="introImg">
-        <img src="~/assets/img/WelfareImg.png" alt="">
-      </div>
+      <div class="title en">Employee Benefits</div>
     </div>
   </div>
 </template>
@@ -18,5 +15,7 @@ export default {
 </script>
 
 <style scoped>
-
+.categoryIntro .title{
+  @apply mb-10
+}
 </style>

@@ -11,7 +11,7 @@ export default {
   layout: 'default',
   data() {
     return{
-      categoryIndex: 0,
+      categoryIndex: 7,
       selectedIndex: 7,
     }
   }

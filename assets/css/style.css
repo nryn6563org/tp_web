@@ -466,3 +466,56 @@ a{
 .defaultTbl tbody tr td img{
   @apply inline-block
 }
+
+.contact_input table{
+  @apply border-t-[1px] border-[#444]
+}
+.contact_input table tbody tr th{
+  @apply text-[#141414] text-[18px] flex h-[84px] py-[17px] gap-5 pl-6 items-center
+}
+.contact_input table tbody tr th em{
+  @apply h-[50px] text-[#FF1818] text-[24px] leading-[61px] block
+}
+.contact_input table tbody tr td{
+  @apply py-[17px] h-[50px]
+}
+.contact_input table tbody tr td input[type='text']{
+  @apply w-[925px] h-[50px] border-[1px] border-[#e6e6eb] p-[12px_16px] placeholder:text-[#9395a1] text-[18px] text-[#141414] rounded-[8px]
+}
+.contact_input table tbody tr td textarea{
+  @apply w-[925px] border-[1px] border-[#e6e6eb] p-[12px_16px] placeholder:text-[#9395a1] text-[18px] text-[#141414] rounded-[8px]
+}
+.cho_class{
+  @apply w-full flex gap-[100px]
+}
+.cho_class label{
+  @apply flex items-center gap-2.5 text-[18px] text-[#141414]
+}
+.billTable{
+  @apply w-[1353px] m-[90px_auto_0]
+}
+.billTable strong{
+  @apply flex w-full justify-between items-end pb-5
+}
+.billTable strong span{
+  @apply text-[24px] text-[#141414] font-bold
+}
+.billTable strong em{
+  @apply text-[#9395a1] text-[18px] font-normal
+}
+.billTable table thead th{
+  @apply border-t-[1px] border-b-[1px] border-[#dcdcdc] bg-[#f0f0f0] h-[80px] text-[#141414] text-[18px] font-normal
+}
+
+.billTable table tbody th{
+  @apply border-b-[1px] border-[#dcdcdc] bg-[#fafafc] text-[18px] text-black px-[45px] font-normal
+}
+.billTable table tbody th.bNormal{
+  @apply border-[#f0f0f0]
+}
+.billTable table tbody td{
+  @apply h-[70px] px-[48px] border-[1px] border-[#f0f0f0] border-r-[0]
+}
+.billTable table tbody .gubun td{
+  @apply border-b-[#dcdcdc]
+}

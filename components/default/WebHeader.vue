@@ -124,11 +124,11 @@
               <nuxt-link to="/pr/news">NEWS</nuxt-link>
               <nuxt-link to="/pr/social">소셜미디어</nuxt-link>
               <nuxt-link to="/pr/csr">사회공헌활동</nuxt-link>
-              <nuxt-link to="/">문의하기</nuxt-link>
+              <nuxt-link to="/pr/contact">문의하기</nuxt-link>
             </div>
 
             <div class="menuList list07">
-              <nuxt-link to="/ir/ir">재무정보</nuxt-link>
+              <nuxt-link to="/ir/financial">재무정보</nuxt-link>
               <nuxt-link to="/ir/ir">공시정보</nuxt-link>
             </div>
 

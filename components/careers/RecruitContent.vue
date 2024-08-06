@@ -7,6 +7,14 @@
         <div class="title en">Recruit</div>
         <div class="headName ko">AI, 빅데이터 시대를 함께 이끌어 갈 인재를 모집합니다.</div>
         <div class="headName en">We are looking for talented people to join us in the era of AI and Big Data.</div>
+
+        <div class="rec_Procedure">
+          <strong>채용절차</strong>
+          <span>
+            <img src="~/assets/img/recruit_p.png" alt="채용절차" width="100%">
+          </span>
+        </div>
+        
         <div class="boardList">
           <div class="boardCategory">
             <div class="listCategory ko">상시채용</div>
@@ -76,7 +84,7 @@
         <div class="titleSpan">Recruit</div>
         <div class="title ko">채용공고</div>
         <div class="title en">Recruit</div>
-        <div class="boardList gap-0 pt-0">
+        <div class="gap-0 pt-0 boardList">
           <div class="listDetail">
             <div class="title ko text-truncate">AI, 빅데이터, 머신러닝 연구원 모집</div>
             <div class="title en text-truncate">AI, Big Data, and Machine Learning Researcher</div>
@@ -162,10 +170,21 @@ export default {
 </script>
 
 <style scoped>
+.titleSpan{
+  @apply !block
+}
 .RecruitContent {
   @apply flex justify-center items-center;
 }
-
+.rec_Procedure{
+  @apply w-full pt-[60px] pb-[90px] flex flex-col gap-7
+}
+.rec_Procedure strong{
+  @apply block text-[20px] text-black
+}
+.rec_Procedure span{
+  @apply w-full
+}
 .board .list .title{
   @apply text-[#141414] text-[18px] font-normal leading-[23px] mb-0;
 }
