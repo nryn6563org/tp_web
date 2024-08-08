@@ -85,4 +85,7 @@ export default {
 .csrContent .txt div strong{
   @apply pb-4 text-[18px] leading-6 text-[#141414] font-bold
 }
+.csrContent .txt div span, .csrContent .txt div a{
+  @apply cursor-pointer text-[16px] text-[#444]
+}
 </style>

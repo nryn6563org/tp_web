@@ -10,7 +10,8 @@
 
         <div>
           <span><img src="" alt="상장 이미지" /></span>
-          <span>전자ICT 특허경영대상<br />금상 수상</span>
+          <span class="ko">전자ICT 특허경영대상<br />금상 수상</span>
+          <span class="en">asfdasdfsadfadsfas<br />afasdfasdfadsfadsfdsafadsd</span>
         </div>
         <!-- // -->
 
@@ -97,7 +98,8 @@
             <div class="mday">
               <div>
                 <span>12월</span>
-                <span>인터넷기술선도부문 미래창조과학부장관상 수상</span>
+                <span class="ko">인터넷기술선도부문 미래창조과학부장관상 수상</span>
+                <span class="en">afdsafdsfasdfsadfadsfsdafsadfdsafadsfasdfadsfasd</span>
               </div>
             </div>
           </div>
@@ -192,7 +194,7 @@ export default {}
 .awardImg div span:first-child {
   @apply w-full h-[336px] bg-[#f8f8f8];
 }
-.awardImg div span:last-child {
+.awardImg div span{
   @apply w-full text-center text-[16px] text-[#444] leading-5;
 }
 
@@ -224,9 +226,9 @@ export default {}
   @apply flex items-center
 }
 .awardList .aw-list-w .aw-list .mday div span:first-child{
-  @apply w-[350px] h-[80px] border-r-[1px] border-[#f0f0f0] justify-center
+  @apply w-[350px] h-[80px] border-r-[1px] border-[#f0f0f0] justify-center pl-0
 }
-.awardList .aw-list-w .aw-list .mday div span:last-child{
+.awardList .aw-list-w .aw-list .mday div span{
   @apply pl-[70px]
 }
 
