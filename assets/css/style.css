@@ -99,7 +99,7 @@ a{
 }
 
 .titleSpan{
-  @apply text-[#5368ff] text-[20px] font-bold leading-[21px] mb-[6px];
+  @apply text-[#9395a1] text-[16px] leading-[20px] mb-[6px] text-center;
 }
 
 .sectionTitle{
@@ -181,9 +181,6 @@ a{
 }
 
 /* landing section */
-.titleSpan{
-  @apply !hidden
-}
 
 /* categoryIntro */
 .categoryIntro{
