@@ -99,7 +99,7 @@ a{
 }
 
 .titleSpan{
-  @apply text-[#5368ff] text-[20px] font-bold leading-[21px] mb-[6px] hidden;
+  @apply text-[#5368ff] text-[20px] font-bold leading-[21px] mb-[6px];
 }
 
 .sectionTitle{
@@ -191,7 +191,7 @@ a{
 }
 
 .categoryIntro .titieSpan{
-  @apply text-[#9395A1] text-[16px] font-normal leading-[20px] mb-[8px] hidden;
+  @apply text-[#9395A1] text-[16px] font-normal leading-[20px] mb-[8px];
 }
 
 .categoryIntro .title{
