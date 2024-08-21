@@ -7,10 +7,6 @@
 /* font */
 
 /* reset */
-html,
-body {
-  @apply h-full;
-}
 
 em {
   @apply not-italic;
@@ -30,7 +26,6 @@ a{
 #__nuxt,
 #__layout,
 #wrap {
-  height:100%;
 }
 
 .text-truncate{
@@ -306,7 +301,7 @@ a{
 
 
 .rdWrap .title{
-  @apply text-[#141414] text-[48px] font-bold leading-[60px] text-center mb-[80px];
+  @apply text-[#141414] text-[48px] font-bold leading-[60px] text-center mb-[80px] w-[1210px] mx-auto;
 }
 
 .rdContent{

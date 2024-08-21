@@ -96,7 +96,7 @@ export default {
   @apply p-[90px_0_120px] flex w-full justify-center items-center gap-[65px]
 }
 .rndContent > div:last-child{
-  @apply flex flex-col w-[700px] h-[899px] justify-center bg-[#fbfbfb] rounded-[20px] p-[60px]
+  @apply flex flex-col w-[700px] h-[899px] justify-center bg-[#fbfbfb] rounded-[20px] p-[0_60px] gap-[5px]
 }
 .rndContent > div .tit{
   @apply flex flex-col w-full gap-5
