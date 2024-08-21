@@ -37,82 +37,82 @@
             <tbody>
               <tr>
                 <th rowspan="3">자산</th>
-                <td>유동자산</td>
+                <td class="!text-start">유동자산</td>
                 <td>10,888,888,666</td>
                 <td>10,888,888,666</td>
                 <td>10,888,888,666</td>
               </tr>
               <tr>
-                <td>비유동자산</td>
+                <td class="!text-start">비유동자산</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr class="gubun">
-                <td>자산총계</td>
+                <td class="!text-start">자산총계</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
                 <th rowspan="3">부채</th>
-                <td>유동부채</td>
+                <td class="!text-start">유동부채</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <td>비유동부채</td>
+                <td class="!text-start">비유동부채</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr class="gubun">
-                <td>부채총계</td>
+                <td class="!text-start">부채총계</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
                 <th rowspan="6">자본</th>
-                <td>자본금</td>
+                <td class="!text-start">자본금</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <td>자본잉여금</td>
+                <td class="!text-start">자본잉여금</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <td>기타자본항목</td>
+                <td class="!text-start">기타자본항목</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <td>기타포괄손익누계액</td>
+                <td class="!text-start">기타포괄손익누계액</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr>
-                <td>이익잉여금(결손금)</td>
+                <td class="!text-start">이익잉여금(결손금)</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr class="gubun">
-                <td>자본총계</td>
+                <td class="!text-start">자본총계</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
               <tr class="gubun">
                 <th></th>
-                <td>부채와 자본총계</td>
+                <td class="!text-start">부채와 자본총계</td>
                 <td></td>
                 <td></td>
                 <td></td>

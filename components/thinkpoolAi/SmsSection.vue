@@ -70,7 +70,7 @@ export default {
   @apply flex w-full justify-between
 }
 .pmsContent > div:last-child{
-  @apply flex flex-col gap-[30px]
+  @apply flex flex-col gap-[30px] w-[555px]
 }
 .pmsContent div .tit{
   @apply flex w-full flex-col gap-2
