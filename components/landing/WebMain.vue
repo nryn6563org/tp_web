@@ -9,12 +9,16 @@
     <LandingNotice></LandingNotice>
     <LandingPatent></LandingPatent>
     <LandingAsk></LandingAsk>
+    <MkModal></MkModal>
   </div>
 </template>
 
 <script>
+import MkModal from '~/components/modal/MkModal.vue';
 export default {
-  
+  components: {
+    MkModal
+  }
 }
 </script>
 <style scoped>
