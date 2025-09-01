@@ -56,10 +56,10 @@ export default {
 
 <style scoped>
 .mkModal {
-  @apply fixed top-1/2 left-1/2 ml-[-353px] mt-[-289px] z-30 w-[705px] flex flex-col gap-1;
+  @apply fixed inset-0 w-full h-full flex flex-col items-center justify-center gap-1 bg-black bg-opacity-65 z-[1004];
 }
 .todayClose {
-  @apply w-full flex justify-end gap-5 px-[10px];
+  @apply w-full max-w-[705px] flex justify-end gap-5 px-[10px];
 }
 .todayClose button {
   @apply text-white text-[20px] h-[32px] flex items-center;
